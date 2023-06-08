@@ -1,0 +1,60 @@
+{
+  "name": "node-test-api-backend",
+  "version": "1.0.0",
+  "description": "A generic NodeJs Rest API Application with each request and response logger (MVC Structure)",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nishudalal/nodejs.git"
+  },
+  "keywords": [
+    "Generic",
+    "NodeJs",
+    "Logger",
+    "REST",
+    "API",
+    "Auth"
+  ],
+  "author": "Nishu Dalal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nishudalal/node_logger/issues"
+  },
+  "homepage": "https://github.com/nishudalal/node_logger#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.1.1",
+    "cors": "^2.8.5",
+    "cryptr": "^4.0.2",
+    "csurf": "^1.9.0",
+    "custom-env": "^1.0.0",
+    "express": "^4.16.4",
+    "express-validator": "^5.3.1",
+    "helmet": "^3.16.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.21",
+    "mongoose-timestamp": "^0.6.0",
+    "multer": "^1.4.1",
+    "mysql2": "^1.6.5",
+    "nodemailer": "^6.0.0",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "opn": "^6.0.0",
+    "pdfkit": "^0.9.0",
+    "redis": "^2.8.0",
+    "sequelize": "^5.2.10",
+    "sniffr": "^1.2.0",
+    "socket.io": "^2.2.0",
+    "type-of-is": "^3.5.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
